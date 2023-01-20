@@ -3,11 +3,11 @@ name = "doji"
 version = "0.0.1"
 edition = "2021"
 license = "MIT"
-description = "Doji is a Typescript and JavaScript runtime based on Deno."
+description = "Doji is a TypeScript and JavaScript runtime based on Deno."
 authors = ["Tristan Isham"]
 repository = "https://github.com/teriyaki-bytes/doji"
 keywords = ["JavaScript", "TypeScript", "Runtime", "cli", "Enterprise"]
-categories = ["development-tools", "command-line-utilities", "compilers", "webassembly", "web programming"]
+categories = ["development-tools", "command-line-utilities", "compilers", "wasm", "web-programming"]
 exclude = ["/lib", ".vscode", ".github"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
