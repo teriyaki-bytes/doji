@@ -1,6 +1,6 @@
 console.log("Ran with Doji!")
 
-function msg() {
-    Deno.core.ops.load_fsr("hi from TS");
+function msg(msg: string) {
+    Deno.core.ops.load_fsr(`hi from ${msg}`);
 }
-msg();
+msg("doji!!!");
