@@ -6,6 +6,11 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+anyhow = { version = "1.0.68", features = ["backtrace"] }
+deno_ast = { version = "0.23.2", features = ["transpiling", "typescript", "cjs", "swc_bundler", "scopes", "bundler", "compat", "dep_graph"] }
 deno_core = "0.167.0"
 deno_ops = "0.45.0"
-swc_ecma_parser = "0.124.2"
+hashbrown = { version = "0.13.2", features = ["serde", "rayon"] }
+rayon = "1.6.1"
+tokio = { version = "1.24.2", features = ["full"] }
+# swc_ecma_parser = "0.124.2"
